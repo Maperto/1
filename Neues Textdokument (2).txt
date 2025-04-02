@@ -70,7 +70,7 @@ app.layout = html.Div([
     Input(component_id='dropdown-statistics',component_property='value '))
 
 
-def update_input_container(Input):
+def update_input_container(selected_statistics):
     if selected_statistics =='Yearly Statistics': 
         return False
     else: 
